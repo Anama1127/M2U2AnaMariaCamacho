@@ -49,7 +49,7 @@ boton.addEventListener("click",function(){
         }
         else{
             if(numeroDos<numeroUno && numeroDos<numeroTres && numeroDos<numeroCuatro){
-                respuesta2.innerHTML = ("El numero menor es "+numeroUno)
+                respuesta2.innerHTML = ("El numero menor es "+numeroDos)
             }
             else{
                 if(numeroCuatro<numeroDos && numeroCuatro<numeroTres && numeroCuatro<numeroUno){
