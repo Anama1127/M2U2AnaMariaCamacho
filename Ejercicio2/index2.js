@@ -5,10 +5,10 @@ let numero4 =document.getElementById("numero4")
 const boton = document.getElementById("boton")
 
 boton.addEventListener("click",function(){
-    let numeroUno = numero1.value
-    let numeroDos = numero2.value
-    let numeroTres = numero3.value
-    let numeroCuatro = numero4.value
+    let numeroUno = parseInt(numero1.value)
+    let numeroDos = parseInt(numero2.value)
+    let numeroTres = parseInt(numero3.value)
+    let numeroCuatro = parseInt(numero4.value)
     const respuesta =document.getElementById("respuesta")
     const respuesta2 =document.getElementById("respuesta2")
 
