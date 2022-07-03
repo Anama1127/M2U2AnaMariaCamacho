@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="C:\Users\GERMAN\OneDrive\Documents\diplomado_FIMLM\ENTREGABLE_M2U2\M2U2AnaMariaCamacho\Ejercicio1\index1.css" rel="stylesheet" type="text/css"/>
+    <title>Ejercicio1</title>
+</head>
+<body>
+    <h1>Ingresa los datos solicitados:</h1>
+    <br>
+
+    <div class="Nombre">
+    <input id="nombre" style="width : 300px" type="text" value="" placeholder="Ingresa tu nombre">
+    <br>
+    <br>
+    </div>
+
+    <div class="materias">
+        <form action="" method="post" id="formulario">
+        <input type="checkbox" id= checkbox1 name="checkbox" value="250000">Ingles ______________________ $250.000
+        <input type="number" id="valor1" name="valor1" value="">
+        <br>
+        <input type="checkbox" id= checkbox2 name="checkbox" value="">Matematicas__________________ $200.000
+        <br>
+        <input type="checkbox" id= checkbox3 name="checkbox" value="">Sociales_____________________ $125.000
+        <br>
+        <input type="checkbox" id= checkbox4 name="checkbox" value="">Ciencias_____________________ $180.000
+        <br>
+        <input type="checkbox" id= checkbox5 name="checkbox" value="">Fisica_______________________ $150.000
+        <br>
+        <input type="checkbox" id= checkbox6 name="checkbox" value="">Español______________________ $175.000
+        <br>
+        <br>
+        <input id="boton" type="button" style= "color: #0099CC; background: #570730 ;border: 2px solid #0099CC;border-radius: 6px;border: none;
+    color: white;padding: 16px 32px; text-align: center; display: inline-block; font-size: 16px; margin: 4px 2px; -webkit-transition-duration: 0.4s; transition-duration: 0.4s;cursor: pointer; text-decoration: none; text-transform: uppercase; margin-left: 600px;" value="Calcular">
+    </form>
+    </div>
+
+    <div id="nombreEstudiante">
+        <h3 id="datosEstudiante"></h3>
+    </div>
+
+    <div class="resultados">
+        <table>
+            <tr>
+                <td>Total materias matriculadas</td>
+                <td>Valor materias matriculadas</td>
+                <td>Costos fijos</td>
+                <td>Valor descuento</td>
+                <td>Valor a pagar</td>
+            </tr>
+            <tr>
+                <td id="numeroMaterias"></td>
+                <td id="valorMaterias"></td>
+                <td>28000</td>
+                <td id="descuento"></td>
+                <td id="valorNeto"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script type="text/javascript" src="C:\Users\GERMAN\OneDrive\Documents\diplomado_FIMLM\ENTREGABLE_M2U2\M2U2AnaMariaCamacho\Ejercicio1\ejercicio1.js"></script>
+</html>
